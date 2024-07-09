@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.timeline-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1110px;
+  height: 100vh;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.heading {
+  font-family: roboto;
+  color: #171f46;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2.7;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+.span {
+  font-family: roboto;
+  color: #2b237c;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .span {
+    font-size: 30px;
+  }
+}
